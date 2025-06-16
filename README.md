@@ -1,4 +1,4 @@
-# 🕹️ Hobitronics Arcade  
+ # 🕹️ Hobitronics Arcade  
 ### Let's build fun, nostalgic games with just code, wires, and imagination!  
 
 ---
@@ -136,14 +136,11 @@ Use the joystick to control the paddle, bounce the ball, break all the bricks, a
 ---
 
 ## 📺 Demo  
-👉 [Watch the YouTube Short]()  
+👉 [Watch the YouTube Short](yet to publish)  
 👉 [View Source Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/breaking_bricks_oled.ino)
 
 
----
-
-## 📁 File Structure
-
+--
 
 ## 📚 Explore More Electronics
 For tutorials, explanations, and in-depth electronics blogs, visit:  
