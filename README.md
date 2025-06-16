@@ -52,6 +52,47 @@ Control the snake, eat the food, and grow longer — all in just 64 pixels!
 
 ---
 
+# 🧩 Joystick Maze Game on OLED
+
+## Description:
+Navigate through 5 progressively challenging mazes using a joystick on a 128x64 OLED screen.  
+This project combines logic, memory-efficient graphics, and satisfying pixel movement — a perfect hands-on learning experience in embedded game design.
+
+---
+
+## 🎮 Components:
+- Arduino UNO  
+- 0.96" OLED Display (SSD1306, I2C)  
+- Analog Joystick Module  
+- Jumper Wires & Breadboard  
+- Optional: Pull-up resistors (10kΩ for joystick button)
+
+---
+
+## 🔍 Features:
+- 5 levels of handcrafted maze puzzles  
+- Pixel-perfect joystick navigation (analog input to digital move)  
+- Dynamic maze drawing from PROGMEM to save RAM  
+- Win animation and auto-restart  
+- Button press supported for future upgrades (pause, reset, etc.)
+
+---
+
+## 🧠 Concepts Covered:
+- Drawing 2D levels using arrays in `PROGMEM`  
+- Display graphics with Adafruit GFX & SSD1306  
+- Handling analog joystick input and debouncing movement  
+- Coordinate-based logic and collision detection  
+- Game state logic and level progression
+
+---
+
+## 📺 Demo  
+👉 [Watch on YouTube Shorts](https://www.youtube.com/shorts/j5V-KC0HfVs)  
+👉 [View Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/joystick_maze.ino)
+
+---
+
 ## 📚 Explore More Electronics
 For tutorials, explanations, and in-depth electronics blogs, visit:  
 👉 [**hobitronics.blog**](https://hobitronics.blog)
