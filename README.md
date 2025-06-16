@@ -92,6 +92,58 @@ This project combines logic, memory-efficient graphics, and satisfying pixel mov
 👉 [View Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/joystick_maze.ino)
 
 ---
+# 🧱 Brick Breaker on OLED  
+### Part of the Hobitronics Arcade Collection
+
+---
+
+## 🎮 Game Description  
+A full-featured **Brick Breaker** game built using an Arduino UNO, joystick, and 128x64 OLED.  
+Use the joystick to control the paddle, bounce the ball, break all the bricks, and advance through 3 exciting levels. Game Over and Victory screens included!
+
+---
+
+## ⚙️ Components Required
+- Arduino UNO  
+- 0.96" OLED Display (SSD1306, I2C)  
+- Analog Joystick Module (connected to A0)  
+- Jumper Wires & Breadboard  
+
+---
+
+## 🧠 Key Features & Concepts
+- Joystick-based paddle control (analog input)  
+- OLED rendering with **Adafruit GFX + SSD1306**  
+- Ball physics with basic collision detection  
+- Brick grid with collision response  
+- Game states: win, lose, reset  
+- Level progression with increasing difficulty  
+- Memory-efficient display updates using `clearDisplay()` and `fillRect()` logic
+
+---
+
+## 🕹️ Gameplay Mechanics
+- **Paddle**: Controlled via joystick (X-axis)  
+- **Ball**: Bounces off walls, paddle, and bricks  
+- **Bricks**: Destroy on impact, earn points  
+- **Levels**:  
+  - Level 1 → 2 rows of bricks, slower ball  
+  - Level 2 → 3 rows of bricks, medium speed  
+  - Level 3 → 4 rows, faster ball  
+- **Win**: Clear all bricks in Level 3  
+- **Lose**: Ball falls below paddle
+
+---
+
+## 📺 Demo  
+👉 [Watch the YouTube Short]()  
+👉 [View Source Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/breaking_bricks_oled.ino)
+
+
+---
+
+## 📁 File Structure
+
 
 ## 📚 Explore More Electronics
 For tutorials, explanations, and in-depth electronics blogs, visit:  
