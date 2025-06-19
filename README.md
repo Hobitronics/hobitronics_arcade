@@ -140,7 +140,8 @@ Use the joystick to control the paddle, bounce the ball, break all the bricks, a
 👉 [View Source Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/breaking_bricks_oled.ino)
 
 
---
+---
+
 🧱 Dodger Game on OLED with Joystick
 Description:
 Dodge falling blocks like a pro in this fast-paced Pixel Dodging Game made with an Arduino UNO, a joystick, and a 0.96" OLED screen.
@@ -193,6 +194,7 @@ State management (level system, win/lose screens)
 👉 [Watch on YouTube Shorts]()  
 👉 [View Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/pixel_dodging_game.ino)
 
+---
 
 ✅ Quick Tips:
 Obstacle speed increases slightly with every dodge
