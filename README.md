@@ -181,9 +181,10 @@ Random obstacle generation
 
 State management (level system, win/lose screens)
 
-📺 Demo
-👉 Coming Soon on YouTube Shorts
-👉 View Code on GitHub
+## 📺 Demo  
+👉 [Watch on YouTube Shorts]()  
+👉 [View Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/pixel_dodging_game.ino)
+
 
 ✅ Quick Tips:
 Obstacle speed increases slightly with every dodge
