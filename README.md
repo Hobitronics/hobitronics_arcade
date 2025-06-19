@@ -141,6 +141,59 @@ Use the joystick to control the paddle, bounce the ball, break all the bricks, a
 
 
 --
+🧱 Dodger Game on OLED with Joystick
+Description:
+Dodge falling blocks like a pro in this fast-paced Pixel Dodging Game made with an Arduino UNO, a joystick, and a 0.96" OLED screen.
+Three levels, increasing speed, and randomized block drops make it a thrilling challenge for hobbyists and students alike!
+
+🎮 Components:
+Arduino UNO
+
+0.96" OLED Display (SSD1306, I2C)
+
+Joystick Module (Analog)
+
+Jumper Wires & Breadboard
+
+Optional: 10kΩ resistors (for joystick stabilization)
+
+🔍 Features:
+Player-controlled dodging using analog joystick input
+
+3 progressive levels with increasing difficulty
+
+Dynamic obstacle sizing and randomized fall paths
+
+Real-time score tracking and level display
+
+Smooth win/lose animation and automatic reset
+
+Optimized for 128x64 OLED using Adafruit GFX library
+
+🧠 Concepts Covered:
+OLED graphics with Adafruit SSD1306 & GFX library
+
+Analog input handling for joystick
+
+Game loop timing and collision detection
+
+Random obstacle generation
+
+State management (level system, win/lose screens)
+
+📺 Demo
+👉 Coming Soon on YouTube Shorts
+👉 View Code on GitHub
+
+✅ Quick Tips:
+Obstacle speed increases slightly with every dodge
+
+Each level includes 10 dodges before progressing
+
+Want to increase difficulty? Decrease updateInterval or increase speed scaling
+
+Reverse joystick directions by modifying logic in readJoystick()
+---
 
 ## 📚 Explore More Electronics
 For tutorials, explanations, and in-depth electronics blogs, visit:  
