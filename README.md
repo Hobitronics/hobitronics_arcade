@@ -136,7 +136,7 @@ Use the joystick to control the paddle, bounce the ball, break all the bricks, a
 ---
 
 ## 📺 Demo  
-👉 [Watch the YouTube Short](yet to publish)  
+👉 [Watch the YouTube Short](https://www.youtube.com/shorts/PUPcUioOR-o)  
 👉 [View Source Code on GitHub](https://github.com/Hobitronics/hobitronics_arcade/blob/main/code/breaking_bricks_oled.ino)
 
 
@@ -145,6 +145,8 @@ Use the joystick to control the paddle, bounce the ball, break all the bricks, a
 Description:
 Dodge falling blocks like a pro in this fast-paced Pixel Dodging Game made with an Arduino UNO, a joystick, and a 0.96" OLED screen.
 Three levels, increasing speed, and randomized block drops make it a thrilling challenge for hobbyists and students alike!
+
+---
 
 🎮 Components:
 Arduino UNO
@@ -156,6 +158,8 @@ Joystick Module (Analog)
 Jumper Wires & Breadboard
 
 Optional: 10kΩ resistors (for joystick stabilization)
+
+---
 
 🔍 Features:
 Player-controlled dodging using analog joystick input
@@ -170,6 +174,8 @@ Smooth win/lose animation and automatic reset
 
 Optimized for 128x64 OLED using Adafruit GFX library
 
+---
+
 🧠 Concepts Covered:
 OLED graphics with Adafruit SSD1306 & GFX library
 
@@ -180,6 +186,8 @@ Game loop timing and collision detection
 Random obstacle generation
 
 State management (level system, win/lose screens)
+
+---
 
 ## 📺 Demo  
 👉 [Watch on YouTube Shorts]()  
